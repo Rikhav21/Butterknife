@@ -4,6 +4,7 @@ This is may attempt at a somewhat affordable laser cutter. Although it might not
 ## Why make this.
 Although it might not be the cheapest diode laser, it is still a lot less expensive than a CO2 laser, and this is enclosed meaning that it will not have to many open fumes. Also I made it witha  10 W laser, so that it would be able to cut most materials as long as it is less than 1 cm thics. I also want to be able to laser cutt parts for other builds, as a lot fo my flat 3d prints warp without an enclosure, so this would be a way fast way to be able to make large, thin, flat things.
 ## Pictures
+![IMG](https://hc-cdn.hel1.your-objectstorage.com/s/v3/7f3af402e7e184f43770a52e567a5d35feaa65c9_image.png)
 ![IMG](https://hc-cdn.hel1.your-objectstorage.com/s/v3/bfe26d02c13af23a35c65188059451c3be65c4dd_image.png)
 ![IMG](https://hc-cdn.hel1.your-objectstorage.com/s/v3/8cfd56f897093cc8efba54b9a75dea5128a49e1e_image.png)
 ## BOM
