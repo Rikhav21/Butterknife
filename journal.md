@@ -7,7 +7,7 @@ created_at: "2025-06-18"
 
 
 # Butterknife
-This is my attempt at making a laser cutter.
+Total time spent: 19 hours
 ## Day 1 (16/6/25)
 Today I mainly just did research into how a laser cutter works, different mechanisms etc. Currently my idea is to just make a core XY, like the gantry of the printer that I designed a few months ago. I think tha tI will eaither go with 10 or 20 watts. And an enclosure is absolutely madatory. I got some plywood, and I am probably going to make the frame out of that.
 ""Total Time spent: 4 hours**
