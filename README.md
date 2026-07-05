@@ -1,15 +1,15 @@
 # Butterknife
-## About
-This is may attempt at a somewhat affordable laser cutter. Although it might not be as cheap as a lot of the open air diode ones, I anteted to make sure that it was safe to use, and that it would still be able to cut wood and thin acrylic. 
-## Why make this.
-Although it might not be the cheapest diode laser, it is still a lot less expensive than a CO2 laser, and this is enclosed meaning that it will not have to many open fumes. Also I made it witha  10 W laser, so that it would be able to cut most materials as long as it is less than 1 cm thics. I also want to be able to laser cutt parts for other builds, as a lot fo my flat 3d prints warp without an enclosure, so this would be a way fast way to be able to make large, thin, flat things.
+**A custom coreXY diode laser**
 
-## A word on firmware
-For this laser cutter I am using a DLC32, so we are going to use the [FluidNC](https://github.com/bdring/FluidNC) firmware to drive our laser cutter. For using the laser cutter you are going to have to change the config.yaml file so that itstead of cartesian it says CoreXY, It should have a 300 by 300 mm in x and y underneath the deimensions header, and the limit switches should be on pins 36 and 39. Finally, make sure that the GPIO pin for the laser module is 17.
+## Hardware
+You will need to cut the particle board into 2 peices of 5.5x34 cm, and 2 pieces of 32x5.5 cm. Then use a drill to make 8mm holes according to the CAD, or this picture. ![](imgs/Measure.png)
+## Software
+For the llaser cutter I am using a DLC32. Instead of using the stock firmware I use [FluidNC]([https://github.com/bdring/FluidNC](https://installer.fluidnc.com/fluidnc)) so that I can conotrol it over wifi. After installing flluidNC, you just need to update the config.yaml to the one in the firmware folder. Afterwards, you can access your laser at fluidnc.local, and control your laser from there. Afterwards, you can upload your gcoode. I personally used rayforge, but you can also use lightburn.  
 ## Pictures
 ![IMG](build.jpg)
 ![](imgs/render3.png)
 ![IMG](imgs/render1.png)
+![](imgs/cuts.png)
 
 [Here](https://cad.onshape.com/documents/d1304014e73009d6c11ef726/w/34172c7cf5d371a968e193e7/e/cf54ac2cfe94093a287dfb58?renderMode=0&uiState=68648e75cddb9616625f6d80) is a link to my onshape CAD.
 ## BOM
