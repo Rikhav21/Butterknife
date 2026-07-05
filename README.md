@@ -2,7 +2,12 @@
 **A custom coreXY diode laser**
 
 ## Hardware
-You will need to cut the particle board into 2 peices of 5.5x34 cm, and 2 pieces of 32x5.5 cm. Then use a drill to make 8mm holes according to the CAD, or this picture. ![](imgs/Measure.png)
+You will need to cut the particle board into 2 pieces of 5.5x34 cm, and 2 pieces of 32x5.5 cm. Then use a drill to make 8mm holes according to the CAD, or this picture. ![](imgs/Measure.png)
+Then assemble the CorreXY gantry according to the CAD. Afterwards, you can assemble the wood pieces into a square with the gantry inside. Then mount the motors and the belt tentioners. Lastly, route the belt and then you shuold be able to control it.
+
+## Wiring
+The wiring is extremely straightforward, Everything is connected to the DLC32 exactly as labeled, including the stepper mootors, endstops and the external power. The only thing is that oour llaesr is 10 W optical, so I used an external power wiring, where the laser driver is connected to teh PSU, and is connected to the laser pin and groound of the DLC32. Then the laser is connected directly to this driver. I just put the electronics in the outer box.
+
 ## Software
 For the llaser cutter I am using a DLC32. Instead of using the stock firmware I use [FluidNC]([https://github.com/bdring/FluidNC](https://installer.fluidnc.com/fluidnc)) so that I can conotrol it over wifi. After installing flluidNC, you just need to update the config.yaml to the one in the firmware folder. Afterwards, you can access your laser at fluidnc.local, and control your laser from there. Afterwards, you can upload your gcoode. I personally used rayforge, but you can also use lightburn.  
 ## Pictures
