@@ -7,7 +7,7 @@ Although it might not be the cheapest diode laser, it is still a lot less expens
 ## A word on firmware
 For this laser cutter I am using a DLC32, so we are going to use the [FluidNC](https://github.com/bdring/FluidNC) firmware to drive our laser cutter. For using the laser cutter you are going to have to change the config.yaml file so that itstead of cartesian it says CoreXY, It should have a 300 by 300 mm in x and y underneath the deimensions header, and the limit switches should be on pins 36 and 39. Finally, make sure that the GPIO pin for the laser module is 17.
 ## Pictures
-![IMG](imgs/build.jpg)
+![IMG](build.jpg)
 ![](imgs/render3.png)
 ![IMG](imgs/render1.png)
 
