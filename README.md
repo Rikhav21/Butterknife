@@ -1,6 +1,12 @@
 # Butterknife
 **A custom coreXY diode laser**
 
+## Pictures
+![IMG](build.jpg)
+![](imgs/render3.png)
+![IMG](imgs/render1.png)
+![](imgs/cuts.png)
+
 ## Hardware
 You will need to cut the particle board into 2 pieces of 5.5x34 cm, and 2 pieces of 32x5.5 cm. Then use a drill to make 8mm holes according to the CAD, or this picture. ![](imgs/Measure.png)
 Then assemble the CorreXY gantry according to the CAD. Afterwards, you can assemble the wood pieces into a square with the gantry inside. Then mount the motors and the belt tentioners. Lastly, route the belt and then you shuold be able to control it.
@@ -10,11 +16,6 @@ The wiring is extremely straightforward, Everything is connected to the DLC32 ex
 
 ## Software
 For the llaser cutter I am using a DLC32. Instead of using the stock firmware I use [FluidNC]([https://github.com/bdring/FluidNC](https://installer.fluidnc.com/fluidnc)) so that I can conotrol it over wifi. After installing flluidNC, you just need to update the config.yaml to the one in the firmware folder. Afterwards, you can access your laser at fluidnc.local, and control your laser from there. Afterwards, you can upload your gcoode. I personally used rayforge, but you can also use lightburn.  
-## Pictures
-![IMG](build.jpg)
-![](imgs/render3.png)
-![IMG](imgs/render1.png)
-![](imgs/cuts.png)
 
 [Here](https://cad.onshape.com/documents/d1304014e73009d6c11ef726/w/34172c7cf5d371a968e193e7/e/cf54ac2cfe94093a287dfb58?renderMode=0&uiState=68648e75cddb9616625f6d80) is a link to my onshape CAD.
 ## BOM
