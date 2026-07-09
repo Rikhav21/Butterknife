@@ -7,8 +7,8 @@ created_at: "2025-06-18"
 
 
 # Butterknife
-Total time spent: 31 hours
-## Day 1 (16/6/25)
+Total time spent: 56
+## Day 1 (16/6/25 
 Today I mainly just did research into how a laser cutter works, different mechanisms etc. Currently my idea is to just make a core XY, like the gantry of the printer that I designed a few months ago. I think tha tI will eaither go with 10 or 20 watts. And an enclosure is absolutely madatory. I got some plywood, and I am probably going to make the frame out of that.
 ""Total Time spent: 5 hours**
 
@@ -36,8 +36,31 @@ Today was the first part of researnching and making the BOM. I got some of the p
 **Total time spent: 3 and a half hours**
 
 
-## Day 7 (29/6/35)
+## Day 7 (29/6/25)
 Today I am ready to submit my project, and finished my BOM. today I got everything done for the BOM, and i also finished the readME. I also postied everything in highway pitstop, and did more reasearch for my BOM. The total ended up costing 323 dollars which was more than I would have liked, but it still fits inside the budget.
-** Total time spend: 5 and a half hours**
+** Total time spend: 5 and a hald hours**
 ![IMG](imgs/BOM.png)
+
+## Day 8 (25/6/26)
+After almost a year, I finally got around to building it. I had vacation from school today, so I dedicated the entire day to get this working. First, I worked on the electronic wiring while the printer was working on parts. I got the screen working and I was able to control the lasesrr over the web, on the default firmware. Afterwards, I assembled the gantry while other parts were printing. Although the X axis was a little rough, it lossened up a I secured it to the frame. I drilled out the mounts for the linear rods with a 8mm drill bit. After securing the gantry in the outer frame, I was able to move it pretty smoothlly, after adding on the belt, I realized that it wasn't llong enough as I was reusing from another projecct, so I psent a long time trying too extend it. I decided to try again tomorrow and actually get it done, because I literally spent the entire day on this.
+
+![](wires.png)
+![](belt.png)
+
+**Total time spent: 12 hours**
+
+## Day 9 (26/6/26)
+Today I was determined to finish the project, so I spent another day grinding. I added the limit switches and built the outer case. That was actually pretty fast. Then I worked on the firmware. I spent a long time trying to get fluidNC to work with the TFT that I got, but ultimately I was not able to, and actually installing fluidNC took a lot longer than I thought. However, I was able to get it on the wifi, and then I had to assign all of the pins and settings. After a bunch of troubleshooting, I finally got all of the controls to work. However, for some reason it wasn't working on chrome, so instead I had to access the port over safari or firefox. Afterwards, I also realized that I had to change the Gcode generator that I was using, as LaaerGRBL didn't work on Mac, so instead I had to use rayforge. For a while I was having a ton of softwarae and slicing issues. But when I finally got the got it moving, my bellt ssnapped, so I had to reattach and melt them together. I finally was able to try engraving, however it ended up pretty bandy, so that was something that I am going to fix to fix tomorrow, but for now I'm just happy it is recognizable.
+![](cases.png)
+![](limits.png)
+![](build.jpg)
+
+**Total Time spent 10 and a half hours**
+
+## Day 10 (28/6/26)
+After a break, I'm back on the frinid. I realiized that there wass a problen with the caridgess, and so I redesigned and reprinted them, and now it seems like they move smoother. i also changed the toolhend so that there isn't as much of a incline towards the toolhead. Other than that I only changed a few of the parts of firmware aboout speed and I did some calibrating for the speed and power on different aterials. I got a clean engraving, and even cut a kit card out of cardboard. Honestly, I felt like this was a success.
+![](imgs/boat.png)
+![](imgs/plane.png)
+
+**Total time spent: 2 and a half hours.**
 
