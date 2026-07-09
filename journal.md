@@ -38,6 +38,6 @@ Today was the first part of researnching and making the BOM. I got some of the p
 
 ## Day 7 (29/6/35)
 Today I am ready to submit my project, and finished my BOM. today I got everything done for the BOM, and i also finished the readME. I also postied everything in highway pitstop, and did more reasearch for my BOM. The total ended up costing 323 dollars which was more than I would have liked, but it still fits inside the budget.
-** Total time spend: 5 and a hald hours**
+** Total time spend: 5 and a half hours**
 ![IMG](imgs/BOM.png)
 
