@@ -1,6 +1,7 @@
 # Butterknife
 **A custom coreXY diode laser**
 
+[video demo](https://youtu.be/Ih5cwR8pDdg?si=rbXtU78eQSvHTNte)
 ## Pictures
 ![IMG](build.jpg)
 ![](imgs/render3.png)
